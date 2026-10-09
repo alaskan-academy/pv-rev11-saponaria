@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F5F5F0">
+<link rel="preload" as="image" href="assets/hero/barra-ao-cacho-de-uva.webp" fetchpriority="high">
+<title>Saponaria Brasil — Renda em casa com base pronta para sabonete | Handify™</title>
+<meta name="description" content="Você começa com uma barra pronta: corta em pedaços, derrete e transforma em sabonetes para vender. Aulas em vídeo com a Viviane, 12 receitas e comunidade de alunas.">
+<meta property="og:title" content="Saponaria Brasil — Renda em casa com base pronta para sabonete">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/logos/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<!-- [INSERIR AQUI OS SCRIPTS DE RASTREAMENTO: UTMify, Pixel, Clarity] -->
+<style>
+:root{
+  /* Paleta oficial Handify */
+  --blue:#6699F3; --green:#72CF92; --yellow:#FEC649;
+  --black:#0F0F0F; --ink:#2D2D2D; --off:#F5F5F0; --white:#FFFFFF;
+  /* Tons claros (cores oficiais com opacidade) */
+  --blue-t:rgba(102,153,243,.13); --green-t:rgba(114,207,146,.18); --yellow-t:rgba(254,198,73,.22);
+  --line:rgba(15,15,15,.12);
+  --r:20px;
+  --shadow:0 1px 3px rgba(15,15,15,.06),0 10px 30px rgba(15,15,15,.07);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:'Montserrat',Arial,Helvetica,sans-serif;font-size:19px;line-height:1.6;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+@media(min-width:900px){body{font-size:20px}}
+img,video{max-width:100%;height:auto;display:block}
+html{-webkit-tap-highlight-color:rgba(102,153,243,.25)}
+h1,h2,h3{margin:0;color:var(--black);text-wrap:balance}
+p{margin:0 0 .9em}
+p:last-child{margin-bottom:0}
+strong{color:var(--black)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+
+/* ---------- Layout ---------- */
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.wrap-wide{max-width:1120px;margin:0 auto;padding:0 20px}
+.sec{padding:76px 0;position:relative}
+@media(min-width:900px){.sec{padding:112px 0}}
+.bg-off{background:var(--off)}
+.bg-green{background:linear-gradient(180deg,rgba(114,207,146,.20),rgba(114,207,146,.07))}
+.bg-yellow{background:linear-gradient(180deg,rgba(254,198,73,.18),rgba(254,198,73,.06))}
+.bg-dark{background:var(--black);color:#EDEDE8}
+.bg-dark h2,.bg-dark h3,.bg-dark strong{color:#fff}
+.center{text-align:center}
+
+/* ---------- Tipografia ---------- */
+.kicker{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--black);margin:0 0 18px}
+.kicker::before{content:"";width:11px;height:11px;border-radius:50%;background:var(--blue);flex-shrink:0}
+.kicker.k-green::before{background:var(--green)}
+.kicker.k-yellow::before{background:var(--yellow)}
+.bg-dark .kicker{color:#fff}
+.h2{font-size:clamp(31px,8vw,48px);font-weight:800;line-height:1.1;letter-spacing:-.015em;margin-bottom:24px}
+.h3{font-size:clamp(23px,5.8vw,28px);font-weight:800;line-height:1.22}
+.lead{font-size:clamp(21px,5.2vw,24px);line-height:1.45;font-weight:500;color:var(--ink)}
+.bg-dark .lead{color:#EDEDE8}
+/* Marca-texto: destaque legível no lugar de texto azul sobre branco */
+.mark{background:linear-gradient(180deg,transparent 56%,rgba(254,198,73,.75) 56%,rgba(254,198,73,.75) 92%,transparent 92%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mark-b{background:linear-gradient(180deg,transparent 56%,rgba(102,153,243,.42) 56%,rgba(102,153,243,.42) 92%,transparent 92%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mark-g{background:linear-gradient(180deg,transparent 56%,rgba(114,207,146,.55) 56%,rgba(114,207,146,.55) 92%,transparent 92%);padding:0 .06em}
+.hand{font-family:'Caveat',cursive;font-weight:700}
+
+/* ---------- Faixa da marca ---------- */
+.brand-stripe{display:flex;height:6px}
+.brand-stripe span{flex:1}
+.brand-stripe span:nth-child(1){background:var(--blue)}
+.brand-stripe span:nth-child(2){background:var(--green)}
+.brand-stripe span:nth-child(3){background:var(--yellow)}
+
+/* ---------- Botões ---------- */
+.btn{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;max-width:500px;min-height:66px;margin:0 auto;padding:18px 24px;background:var(--blue);color:var(--black);border:3px solid var(--black);border-radius:16px;box-shadow:0 6px 0 var(--black);font-family:inherit;font-size:19px;font-weight:800;line-height:1.25;text-align:center;text-decoration:none;cursor:pointer;transition:transform .2s ease-out,box-shadow .2s ease-out}
+.btn:hover{transform:translateY(2px);box-shadow:0 4px 0 var(--black)}
+.btn:active{transform:translateY(6px);box-shadow:0 0 0 var(--black)}
+.btn svg{width:24px;height:24px;flex-shrink:0}
+.btn-outline{background:#fff}
+.btn-area{margin-top:44px}
+.btn-note{margin:16px auto 0;max-width:500px;text-align:center;font-size:17px;font-weight:600;color:var(--ink)}
+
+/* ---------- Espaços para substituição ---------- */
+/* Para trocar: substitua o <figure class="ph">…</figure> por
+   <img src="…" alt="…" class="media" width="…" height="…" loading="lazy" decoding="async">
+   Use .webp com ~900px de largura (fotos) e ~1080px (prints).
+   Na foto/vídeo do hero NÃO use loading="lazy": use fetchpriority="high". */
+.ph{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;aspect-ratio:var(--ar,4/5);margin:0;padding:16px;border:2px dashed rgba(15,15,15,.28);border-radius:var(--r);background:#fff repeating-linear-gradient(-45deg,rgba(102,153,243,.08) 0 14px,transparent 14px 28px);text-align:center;color:var(--ink);font-size:16px;font-weight:600;line-height:1.35;overflow:hidden}
+.ph-tag{font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;background:var(--black);color:#fff;padding:5px 11px;border-radius:999px}
+.ph-tag.t-video{background:var(--blue);color:var(--black)}
+.ph-tag.t-print{background:var(--green);color:var(--black)}
+.ph-tag.t-tela{background:var(--yellow);color:var(--black)}
+.bg-dark .ph{background:#1A1A1A repeating-linear-gradient(-45deg,rgba(102,153,243,.14) 0 14px,transparent 14px 28px);color:#EDEDE8;border-color:rgba(255,255,255,.35)}
+.media{width:100%;height:auto;border-radius:var(--r);object-fit:cover}
+/* Dados pendentes (preço, links, canais) */
+.fill{background:var(--yellow-t);outline:2px dashed #D9A421;outline-offset:1px;border-radius:6px;padding:0 6px;font-weight:700;color:var(--black)}
+.editor-note{background:var(--yellow-t);border:2px dashed #D9A421;border-radius:16px;padding:18px 20px;font-size:17px;font-weight:600;color:var(--black);line-height:1.5}
+.editor-note b{display:block;font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+
+/* ---------- Ícones ---------- */
+.ico{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.chk{width:30px;height:30px;border-radius:50%;background:var(--green);color:var(--black);display:grid;place-items:center;flex-shrink:0}
+.chk .ico{width:17px;height:17px;stroke-width:3}
+
+/* ---------- Topo ---------- */
+.topbar{background:var(--off)}
+.topbar-in{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:6px}
+.topbar img{height:34px;width:auto}
+
+/* =========================================================
+   DOBRA 1 — HERO
+   ========================================================= */
+.hero{position:relative;overflow:hidden;background:var(--off);padding:26px 0 64px}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(10px);pointer-events:none}
+.hero::before{width:520px;height:520px;right:-180px;top:-160px;background:radial-gradient(circle,rgba(102,153,243,.22),transparent 65%)}
+.hero::after{width:460px;height:460px;left:-200px;bottom:-140px;background:radial-gradient(circle,rgba(114,207,146,.24),transparent 65%)}
+.hero .wrap-wide{position:relative;z-index:1}
+.hero-grid{display:grid;gap:30px}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr;align-items:center;gap:64px}}
+.hero-kicker{font-size:16px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--black);line-height:1.45;margin:0 0 20px;padding:10px 14px;background:#fff;border-radius:12px;display:inline-block;box-shadow:var(--shadow)}
+.hero-kicker span{display:block;color:var(--ink);font-weight:700}
+.hero h1{font-size:clamp(40px,11.4vw,70px);font-weight:900;line-height:1.02;letter-spacing:-.025em}
+.hero-lead{font-size:clamp(22px,5.8vw,28px);font-weight:500;line-height:1.42;color:var(--black);margin:18px 0 0}
+.hero-lead .gain{display:inline;font-weight:800}
+.hero-media{position:relative;max-width:460px;width:100%;margin:0 auto}
+.hero-media .ph{--ar:4/5;border-radius:28px;border-width:3px}
+.hero-img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:28px;border:3px solid var(--black);box-shadow:0 10px 0 var(--black);background:var(--off)}
+.sticker{position:absolute;z-index:2;font-family:'Caveat',cursive;font-weight:700;font-size:27px;line-height:1;color:var(--black);background:var(--yellow);padding:8px 16px 10px;border-radius:12px;box-shadow:0 4px 0 var(--black);border:2px solid var(--black)}
+.sticker.s1{top:18px;left:-6px;transform:rotate(-5deg)}
+.sticker.s2{bottom:22px;right:-6px;transform:rotate(4deg);background:var(--green)}
+
+.process{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(min-width:900px){.process{grid-template-columns:repeat(4,1fr);gap:20px;margin-top:64px}}
+.process li{position:relative;background:#fff;border-radius:20px;padding:10px 10px 16px;box-shadow:var(--shadow)}
+.process .ph{--ar:1/1;border-radius:13px;font-size:15px}
+.process .cap{display:flex;align-items:center;gap:9px;margin-top:12px;padding:0 4px;font-family:'Caveat',cursive;font-weight:700;font-size:27px;line-height:1;color:var(--black)}
+.n-dot{width:30px;height:30px;border-radius:50%;background:var(--blue);color:var(--black);border:2px solid var(--black);display:grid;place-items:center;font-family:'Montserrat',sans-serif;font-size:15px;font-weight:900;flex-shrink:0}
+@media(min-width:900px){.process li:not(:last-child)::after{content:"→";position:absolute;right:-17px;top:38%;font-size:24px;font-weight:900;color:var(--black);z-index:2}}
+
+.scroll-cue{display:flex;flex-direction:column;align-items:center;gap:12px;margin:44px auto 0;max-width:340px;font-size:20px;font-weight:800;line-height:1.35;color:var(--black);text-decoration:none;text-align:center}
+.scroll-cue .arw{width:56px;height:56px;border-radius:50%;background:#fff;border:3px solid var(--black);display:grid;place-items:center;font-size:24px;animation:bob 1.8s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+
+/* =========================================================
+   DOBRA 2 — "SERÁ QUE EU CONSIGO?"
+   ========================================================= */
+.quote-title{font-size:clamp(34px,9vw,56px);font-weight:900;line-height:1.08;letter-spacing:-.02em;margin-bottom:28px}
+.quote-title .qm{display:block;font-family:Georgia,serif;font-size:1.9em;line-height:.6;height:.42em;color:var(--yellow);-webkit-text-stroke:2px var(--black)}
+.bridge{font-size:clamp(23px,6vw,30px);font-weight:800;line-height:1.3;color:var(--black);margin:34px 0 0;padding:4px 0 4px 20px;border-left:6px solid var(--green)}
+.steps{list-style:none;padding:0;margin:56px auto 0;display:grid;gap:52px}
+.step{display:grid;gap:20px}
+@media(min-width:900px){.step{grid-template-columns:1fr 1fr;align-items:center;gap:64px}.step:nth-child(even) .step-media{order:2}}
+.step .ph{--ar:4/3}
+.step-n{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:var(--black);color:#fff;font-size:20px;font-weight:900;margin-bottom:14px}
+.step h3{font-size:clamp(25px,6.4vw,32px);font-weight:800;line-height:1.18;margin-bottom:12px}
+.pause-note{display:flex;gap:16px;align-items:center;background:var(--blue-t);border-radius:20px;padding:22px;margin:60px auto 0;max-width:640px;font-size:20px;font-weight:700;color:var(--black);line-height:1.4}
+.pause-note .pi{width:52px;height:52px;border-radius:50%;background:var(--blue);border:2px solid var(--black);display:grid;place-items:center;flex-shrink:0}
+.pause-note .pi .ico{width:22px;height:22px;stroke-width:2.6}
+
+/* =========================================================
+   DOBRA 3 — COMUNIDADE
+   ========================================================= */
+.only{display:inline-block;background:var(--black);color:#fff;font-size:16px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:8px 14px;border-radius:10px;margin-bottom:20px}
+.asks{display:grid;gap:18px;margin-top:36px}
+@media(min-width:900px){.asks{grid-template-columns:repeat(3,1fr)}}
+.ask{background:#fff;border-radius:24px;padding:24px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px}
+.ask-q{position:relative;background:var(--green-t);border-radius:18px 18px 18px 4px;padding:16px 18px;font-size:clamp(21px,5.3vw,23px);font-weight:800;line-height:1.3;color:var(--black)}
+.ask-a{display:flex;gap:10px;align-items:flex-start;font-size:19px;font-weight:600;color:var(--black);line-height:1.45;padding-left:4px}
+.ask-a .ico{width:24px;height:24px;margin-top:2px;color:var(--black)}
+.prints-title{font-size:clamp(23px,6vw,28px);font-weight:800;color:var(--black);line-height:1.25;margin:60px 0 6px}
+.swipe-hint{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:600;margin:0 0 6px}
+@media(min-width:900px){.swipe-hint{display:none}}
+.prints{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 20px 26px;margin:0 -20px;-webkit-overflow-scrolling:touch;}
+.prints > *{flex:0 0 86%;max-width:440px;scroll-snap-align:center}
+.prints .ph{--ar:3/4}
+.cm-card{margin:0;background:#fff;border-radius:22px;overflow:hidden;border:2px solid var(--black);box-shadow:0 6px 0 var(--black);display:flex;flex-direction:column}
+.testi-shot.cm-shot{height:auto;background:#fff;border-top:0;border-bottom:2px solid var(--line)}
+.testi-shot.cm-shot img{height:auto;object-fit:initial}
+.testi-shot.cm-shot::after{display:none}
+.testi-shot.cm-shot .zoom{left:auto;right:12px;bottom:auto;top:12px;transform:none;font-size:15px;padding:6px 12px}
+.cm-card figcaption{padding:16px 18px 20px;font-size:19px;font-weight:600;line-height:1.45;color:var(--black)}
+.cm-card figcaption b{display:block;font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--black);margin-bottom:6px}
+@media(min-width:900px){.prints{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;margin:0;padding:14px 0 0}.prints > *{max-width:none}}
+
+/* =========================================================
+   DOBRA 4 — SIMULAÇÃO
+   ========================================================= */
+.sim{display:grid;gap:36px;margin-top:36px}
+@media(min-width:900px){.sim{grid-template-columns:.85fr 1.15fr;align-items:center;gap:64px}}
+.box-visual{position:relative;max-width:420px;width:100%;margin:0 auto}
+.box-visual .ph{--ar:1/1;border-radius:26px}
+.sim-video{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:26px;border:3px solid var(--black);box-shadow:0 10px 0 var(--black);background:var(--off)}
+.price-tag{position:absolute;right:-6px;bottom:-14px;background:var(--yellow);border:3px solid var(--black);border-radius:16px;box-shadow:0 5px 0 var(--black);padding:10px 18px;text-align:center;transform:rotate(-3deg)}
+.price-tag .t1{display:block;font-size:16px;font-weight:700;color:var(--black)}
+.price-tag .t2{display:block;font-size:32px;font-weight:900;line-height:1;color:var(--black)}
+.sim-sub{font-size:clamp(21px,5.2vw,23px);font-weight:600;color:var(--black);line-height:1.4;margin-bottom:24px}
+.sim-rows{display:grid;gap:26px;background:#fff;border-radius:24px;padding:26px 22px;border:2px solid var(--line)}
+.sim-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sim-top .q{font-size:21px;font-weight:700;color:var(--black)}
+.sim-top .v{font-size:22px;font-weight:900;color:var(--black)}
+.sim-track{height:24px;border-radius:999px;background:rgba(15,15,15,.07);overflow:hidden;margin-top:10px}
+.sim-fill{height:100%;width:var(--w);border-radius:inherit;background:var(--green);border-right:3px solid var(--black)}
+.sim-row:last-child .sim-fill{background:var(--blue)}
+.sim-close{margin-top:28px;font-size:clamp(21px,5.2vw,23px);font-weight:700;color:var(--black);line-height:1.4}
+
+/* =========================================================
+   DOBRA 5 — POR DENTRO DO CURSO
+   ========================================================= */
+.recipes{list-style:none;padding:0;margin:36px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:20px 14px}
+@media(min-width:700px){.recipes{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1000px){.recipes{grid-template-columns:repeat(4,1fr);gap:28px 20px}}
+.recipe .ph{--ar:1/1;border-radius:18px;font-size:15px}
+.r-img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:18px;background:var(--off)}
+.pick .r-img{border-radius:14px}
+.recipe .nm{display:flex;gap:8px;align-items:baseline;margin-top:12px;font-size:19px;font-weight:800;color:var(--black);line-height:1.25}
+.recipe .nm i{font-style:normal;font-size:16px;font-weight:800;color:var(--ink);min-width:22px}
+.divider-cut{display:flex;align-items:center;gap:14px;margin:72px 0 56px;color:var(--ink)}
+.divider-cut::before,.divider-cut::after{content:"";flex:1;border-top:3px dashed rgba(15,15,15,.25)}
+.divider-cut .ico{width:28px;height:28px}
+.screens{display:grid;gap:16px;margin:36px 0 44px}
+@media(min-width:800px){.screens{grid-template-columns:1.7fr 1fr;align-items:end}}
+.screens .s-desk{--ar:16/10}
+.screens .s-phone{--ar:9/16;max-width:300px;margin:0 auto;border-radius:30px}
+.shot{display:block;width:100%;height:auto;background:#fff;border:3px solid var(--black);box-shadow:0 8px 0 var(--black)}
+.shot.s-desk{border-radius:16px}
+.shot.s-phone{border-radius:28px;border-width:6px}
+.acc{background:#fff;border-radius:24px;border:2px solid var(--line);padding:4px 18px}
+.acc details{border-bottom:2px solid var(--line)}
+.acc details:last-child{border-bottom:0}
+.acc summary{list-style:none;display:flex;align-items:center;gap:16px;min-height:80px;padding:16px 0;cursor:pointer}
+.acc summary::-webkit-details-marker{display:none}
+.acc .an{width:46px;height:46px;border-radius:13px;background:var(--blue-t);color:var(--black);font-weight:900;font-size:20px;display:grid;place-items:center;flex-shrink:0}
+.acc .at{flex:1;font-size:clamp(21px,5.3vw,24px);font-weight:800;color:var(--black);line-height:1.25}
+.acc .pl{width:38px;height:38px;border-radius:50%;border:2px solid var(--black);display:grid;place-items:center;flex-shrink:0;transition:transform .25s ease-out,background .25s ease-out}
+.acc .pl .ico{width:18px;height:18px;stroke-width:3}
+.acc details[open] .pl{transform:rotate(45deg);background:var(--yellow)}
+.acc .ad{padding:0 0 22px;margin:0}
+@media(min-width:600px){.acc .ad{padding-left:62px}}
+.acc.faq .ad{padding-left:0}
+.acc.faq .at{font-size:clamp(20px,5vw,22px)}
+.closing{margin-top:36px;font-size:clamp(21px,5.2vw,23px);font-weight:600;color:var(--black);line-height:1.45}
+
+/* =========================================================
+   DOBRA 6 — BÔNUS / FERRAMENTAS
+   ========================================================= */
+.tools-grid{display:grid;gap:32px;margin-top:40px}
+@media(min-width:900px){.tools-grid{grid-template-columns:.8fr 1.2fr;align-items:start;gap:56px}.tools-grid .tool-shot{position:sticky;top:32px}}
+.tool-shot .ph{--ar:9/16;max-width:320px;margin:0 auto;border-radius:30px}
+.tool-img{max-width:440px;margin:0 auto;border-radius:24px}
+.tools{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.tool{display:grid;grid-template-columns:58px 1fr;gap:16px;align-items:start;background:#fff;border-radius:22px;padding:20px;border:2px solid var(--black)}
+.tool-ic{width:58px;height:58px;border-radius:16px;background:var(--yellow);display:grid;place-items:center;color:var(--black)}
+.tool-ic .ico{width:28px;height:28px}
+.tool:nth-child(2) .tool-ic{background:var(--green)}
+.tool:nth-child(3) .tool-ic{background:var(--blue)}
+.tool:nth-child(5) .tool-ic{background:var(--green)}
+.tool h3{font-size:clamp(22px,5.5vw,24px);font-weight:800;line-height:1.2;margin:4px 0 6px}
+.tool p{margin:0}
+.extras-title{font-size:clamp(25px,6.4vw,32px);font-weight:800;color:var(--black);margin:64px 0 20px}
+.extras{list-style:none;padding:0;margin:0;background:#fff;border-radius:24px;box-shadow:var(--shadow)}
+.extras li{padding:22px;border-bottom:2px solid var(--line)}
+.extras li:last-child{border-bottom:0}
+.extras h3{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:clamp(21px,5.3vw,23px);font-weight:800;line-height:1.25;margin-bottom:6px}
+.pill{font-size:14px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--black);color:#fff;padding:5px 10px;border-radius:8px}
+.extras p{margin:0}
+
+/* =========================================================
+   DOBRA 7 — DEPOIMENTOS
+   ========================================================= */
+.wins{list-style:none;padding:0;margin:28px 0 30px;display:grid;gap:12px}
+.wins li{display:flex;gap:14px;align-items:center;font-family:'Caveat',cursive;font-weight:700;font-size:clamp(31px,8vw,40px);line-height:1.1;color:var(--black)}
+/* Carrossel no celular, grade no computador */
+.testi{display:flex;gap:16px;align-items:stretch;overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 18px 26px;margin:6px -18px 0;-webkit-overflow-scrolling:touch;}
+.testi-card{flex:0 0 86%;max-width:400px;scroll-snap-align:center;background:#fff;border-radius:24px;overflow:hidden;border:2px solid var(--black);box-shadow:0 6px 0 var(--black);display:flex;flex-direction:column}
+.testi-card .testi-top{flex:1}
+@media(min-width:900px){.testi{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;overflow:visible;margin:6px 0 0;padding:14px 0 0}.testi-card{max-width:none}}
+.testi-top{padding:18px 18px 16px}
+.testi-chip{display:inline-block;font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--black);background:var(--green-t);border-radius:8px;padding:4px 10px;margin-bottom:10px}
+.testi-chip.c-sale{background:var(--yellow-t)}
+.testi-q{margin:0;font-size:21px;font-weight:800;line-height:1.3;color:var(--black)}
+.testi-shot{position:relative;display:block;width:100%;padding:0;border:0;border-top:2px solid var(--line);background:#0b141a;cursor:zoom-in;height:400px;overflow:hidden}
+.testi-shot img{width:100%;height:100%;object-fit:cover;object-position:top}
+.testi-shot::after{content:"";position:absolute;left:0;right:0;bottom:0;height:90px;background:linear-gradient(transparent,rgba(11,20,26,.85))}
+.testi-shot .zoom{position:absolute;z-index:1;left:50%;bottom:14px;transform:translateX(-50%);white-space:nowrap;background:#fff;color:var(--black);font-size:16px;font-weight:800;padding:9px 16px;border-radius:999px;border:2px solid var(--black)}
+/* Ampliar print */
+.lb{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh;width:100%;height:100%}
+.lb::backdrop{background:rgba(15,15,15,.92)}
+.lb-in{height:100%;overflow:auto;display:flex;flex-direction:column;align-items:center;padding:72px 12px 24px}
+.lb img{width:100%;max-width:560px;height:auto;border-radius:12px}
+.lb-close{position:fixed;top:14px;right:14px;z-index:2;min-height:52px;padding:0 20px;border-radius:999px;border:3px solid var(--black);background:var(--yellow);color:var(--black);font:800 18px 'Montserrat',sans-serif;cursor:pointer}
+
+/* =========================================================
+   DOBRA 8 — PRAZO
+   ========================================================= */
+.urg-lines p{font-size:clamp(21px,5.2vw,23px);font-weight:600;color:var(--black);line-height:1.4}
+.deadline{display:grid;gap:18px;margin-top:40px}
+@media(min-width:760px){.deadline{grid-template-columns:1fr 1fr;align-items:stretch}}
+.cal{position:relative;background:#fff;border-radius:24px;padding:30px 18px 20px;border:3px solid var(--black)}
+.cal::before{content:"";position:absolute;top:-12px;left:22%;right:22%;height:22px;background:radial-gradient(circle at 10px 11px,var(--black) 6px,transparent 7px) 0 0/calc(100%/1) 22px no-repeat,radial-gradient(circle at calc(100% - 10px) 11px,var(--black) 6px,transparent 7px)}
+.cal-head{font-size:22px;font-weight:900;color:var(--black);text-align:center;margin-bottom:14px;text-transform:capitalize}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;text-align:center}
+.cal-grid .wd{font-size:15px;font-weight:800;color:var(--ink);padding-bottom:6px}
+.cal-grid .d{position:relative;font-size:17px;font-weight:600;color:var(--black);padding:8px 0;line-height:1.2}
+.cal-grid .d.past{color:rgba(15,15,15,.32)}
+.cal-grid .d.today{font-weight:900}
+.cal-grid .d.today::after{content:"";position:absolute;left:50%;top:50%;width:44px;height:38px;transform:translate(-50%,-50%) rotate(-8deg);border:3px solid #E9A90E;border-radius:50% 45% 52% 48%}
+.dl-card{background:var(--black);color:#fff;border-radius:24px;padding:30px 24px;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.dl-card .lbl{font-size:16px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow)}
+.dl-card .dt{font-size:clamp(36px,9.5vw,50px);font-weight:900;line-height:1.02;color:#fff;text-transform:uppercase}
+.dl-card .inc{display:flex;gap:12px;align-items:center;font-size:21px;font-weight:700;color:#fff;margin-top:8px}
+/* Alerta de prazo (só com prazo real configurado) */
+.dl-alert{display:inline-flex;align-items:center;gap:10px;background:var(--yellow);color:var(--black);font-size:19px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:9px 16px;border-radius:999px;border:2px solid #fff}
+[hidden]{display:none!important}
+.dl-alert::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--black);animation:blink 1s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.dl-count{width:100%;margin-top:14px;padding-top:18px;border-top:2px dashed rgba(255,255,255,.3)}
+.dl-count-t{display:block;font-size:16px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow);margin-bottom:10px}
+.dl-boxes{display:flex;justify-content:center;gap:10px}
+.dl-boxes span{display:flex;flex-direction:column;align-items:center;min-width:76px;padding:10px 6px;background:rgba(255,255,255,.08);border-radius:14px;font-size:15px;font-weight:700;color:#EDEDE8}
+.dl-boxes b{font-size:40px;font-weight:900;line-height:1;color:var(--yellow);font-variant-numeric:tabular-nums}
+.prazo-hoje .dl-card{box-shadow:0 0 0 4px var(--yellow),0 0 0 9px rgba(254,198,73,.35);animation:glow 1.6s ease-in-out infinite}
+@keyframes glow{50%{box-shadow:0 0 0 4px var(--yellow),0 0 0 16px rgba(254,198,73,0)}}
+.prazo-hoje .phase.now .dot{animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 14px rgba(254,198,73,0)}}
+.prazo-hoje .phases::before{background:linear-gradient(90deg,var(--green) 0 50%,var(--yellow) 50%)}
+@media(max-width:559px){.prazo-hoje .phases::before{background:linear-gradient(180deg,var(--green) 0 50%,var(--yellow) 50%)}}
+.prazo-hoje .phase:last-child .dot{border-color:var(--black);background:var(--yellow-t)}
+.phases{display:grid;grid-template-columns:repeat(3,1fr);margin-top:30px;position:relative}
+.phases::before{content:"";position:absolute;top:19px;left:16.6%;right:16.6%;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--green) 0 50%,rgba(15,15,15,.12) 50%)}
+.phase{position:relative;text-align:center;padding:0 4px}
+.phase .dot{width:44px;height:44px;margin:0 auto 12px;border-radius:50%;background:#fff;border:3px solid rgba(15,15,15,.25);display:grid;place-items:center;position:relative;z-index:1}
+.phase.done .dot{background:var(--green);border-color:var(--black)}
+.phase.now .dot{background:var(--yellow);border-color:var(--black);box-shadow:0 0 0 6px rgba(254,198,73,.35)}
+.phase .pt{display:block;font-size:16px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;color:var(--black);line-height:1.3}
+.phase.now .pt{background:var(--yellow);border-radius:8px;padding:2px 6px;display:inline-block}
+.phase .dot .ico{width:20px;height:20px;stroke-width:3}
+@media(max-width:559px){
+  .phases{grid-template-columns:1fr;gap:14px}
+  .phases::before{top:22px;bottom:22px;left:20px;right:auto;width:6px;height:auto;background:linear-gradient(180deg,var(--green) 0 50%,rgba(15,15,15,.12) 50%)}
+  .phase{display:flex;align-items:center;gap:16px;text-align:left;padding:0}
+  .phase .dot{margin:0;flex-shrink:0}
+  .phase .pt{font-size:18px}
+}
+.urg-final{margin-top:36px;font-size:clamp(20px,5vw,22px);font-weight:700;color:var(--black);padding:20px 22px;background:#fff;border-radius:18px;border-left:6px solid var(--yellow)}
+
+/* =========================================================
+   DOBRA 9 — QUEM VAI ENSINAR (fundo escuro)
+   ========================================================= */
+.teach{display:grid;gap:40px}
+@media(min-width:900px){.teach{grid-template-columns:.8fr 1.2fr;align-items:center;gap:72px}}
+.teach .ph{--ar:9/16;max-width:360px;margin:0 auto;border-radius:30px}
+.teach-video{display:block;width:100%;max-width:420px;height:auto;aspect-ratio:4/5;object-fit:cover;margin:0 auto;border-radius:28px;border:3px solid #fff;box-shadow:0 10px 0 var(--yellow);background:#1A1A1A}
+.dchecks{list-style:none;padding:0;margin:28px 0 32px;display:grid;gap:16px}
+.dchecks li{display:flex;gap:14px;align-items:flex-start;font-size:clamp(21px,5.3vw,24px);font-weight:700;color:#fff;line-height:1.3}
+.bg-dark p{color:#EDEDE8}
+
+/* =========================================================
+   OFERTAS (3 apresentações diferentes)
+   ========================================================= */
+.offer-sec{background:var(--off);overflow:hidden}
+.offer-sec::before{content:"";position:absolute;width:600px;height:600px;left:50%;top:40px;transform:translateX(-50%);background:radial-gradient(circle,rgba(102,153,243,.18),transparent 62%);pointer-events:none}
+.offer{position:relative;max-width:620px;margin:0 auto;background:#fff;border:3px solid var(--black);border-radius:30px;overflow:hidden;box-shadow:0 10px 0 var(--black)}
+.offer .brand-stripe{height:12px}
+.offer-body{padding:30px 22px 34px}
+@media(min-width:600px){.offer-body{padding:40px 44px}}
+.offer-viv{display:block;width:100%;max-width:380px;height:auto;margin:0 auto 22px}
+.offer-body h3{font-size:clamp(23px,5.8vw,27px);font-weight:800;margin-bottom:10px}
+.ticks{list-style:none;padding:0;margin:0}
+.ticks li{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line);font-size:19px;font-weight:600;color:var(--black);line-height:1.4}
+.ticks li:last-child{border-bottom:0}
+.ticks .chk{width:28px;height:28px;margin-top:1px}
+.price{text-align:center;margin:30px 0 26px;padding:24px 16px;background:var(--off);border-radius:20px}
+.price .by{font-size:21px;font-weight:700;color:var(--black)}
+.price .val{display:block;font-size:clamp(46px,13vw,66px);font-weight:900;line-height:1.05;color:var(--black);letter-spacing:-.02em;margin:4px 0}
+.price .val .fill{font-size:.42em;letter-spacing:0;vertical-align:middle}
+.price .inst{font-size:20px;font-weight:600;color:var(--black)}
+.offer-screens{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:20px 20px 10px;margin:40px 0 0}
+.offer-screens > *{flex:0 0 72%;max-width:340px;scroll-snap-align:center}
+.offer-screens .ph{--ar:4/5}
+.offer-screens figcaption{font-size:17px;font-weight:700;color:var(--black);margin-top:10px;text-align:center}
+@media(min-width:900px){.offer-screens{display:grid;grid-template-columns:repeat(3,1fr);max-width:1000px;margin:56px auto 0;padding:0 20px;overflow:visible}.offer-screens > *{max-width:none}}
+
+/* Oferta 2 — formato "jornada" */
+.journey{list-style:none;padding:0;margin:40px 0 0;display:grid}
+.stage{position:relative;display:grid;grid-template-columns:56px 1fr;gap:18px;padding-bottom:40px}
+.stage:not(:last-child)::before{content:"";position:absolute;left:26px;top:56px;bottom:0;width:4px;background:repeating-linear-gradient(180deg,var(--black) 0 10px,transparent 10px 18px)}
+.stage-dot{width:56px;height:56px;border-radius:50%;background:var(--blue);border:3px solid var(--black);display:grid;place-items:center;font-size:21px;font-weight:900;color:var(--black)}
+.stage:nth-child(2) .stage-dot{background:var(--green)}
+.stage:nth-child(3) .stage-dot{background:var(--yellow)}
+.stage:nth-child(4) .stage-dot{background:#fff}
+.stage-k{font-size:16px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--black);margin:13px 0 8px}
+.stage p{font-size:20px;font-weight:600;color:var(--black);line-height:1.4;margin-bottom:16px}
+.stage .ph{--ar:4/3;max-width:440px}
+.j-img{display:block;width:100%;max-width:440px;height:auto;aspect-ratio:4/3;object-fit:cover;margin:0 auto;border-radius:18px;border:3px solid var(--black);box-shadow:0 6px 0 var(--black);background:#fff}
+@media(min-width:1000px){
+  .journey{grid-template-columns:repeat(4,1fr);gap:24px}
+  .stage{grid-template-columns:1fr;padding-bottom:0}
+  .stage:not(:last-child)::before{left:56px;right:-24px;top:26px;bottom:auto;width:auto;height:4px;background:repeating-linear-gradient(90deg,var(--black) 0 10px,transparent 10px 18px)}
+  .stage p{min-height:5.6em}
+}
+.also{margin:24px 0 0;font-size:20px;font-weight:600;color:var(--black);background:var(--green-t);border-radius:18px;padding:20px 22px}
+.offer-compact{max-width:720px;margin:48px auto 0;background:#fff;border:3px solid var(--black);border-radius:30px;box-shadow:0 10px 0 var(--black);overflow:hidden}
+.offer-compact .brand-stripe{height:12px}
+.oc-in{padding:30px 22px 34px}
+@media(min-width:600px){.oc-in{padding:40px 44px}}
+.oc-head{font-size:clamp(23px,5.8vw,27px);font-weight:800;color:var(--black);line-height:1.25;margin-bottom:6px}
+.oc-sum{font-size:20px;font-weight:600;color:var(--black)}
+.oc-facts{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:10px}
+.oc-facts li{display:flex;gap:12px;align-items:center;font-size:19px;font-weight:700;color:var(--black)}
+
+/* Oferta 3 — última chamada */
+.last{background:linear-gradient(180deg,rgba(102,153,243,.16),rgba(114,207,146,.12));overflow:hidden}
+.picks{list-style:none;padding:0;margin:32px 0 0;display:grid;gap:14px}
+@media(min-width:800px){.picks{grid-template-columns:repeat(3,1fr);gap:20px}}
+.pick{display:grid;grid-template-columns:112px 1fr;gap:16px;align-items:center;background:#fff;border-radius:22px;padding:12px;border:2px solid var(--black)}
+.pick .ph{--ar:1/1;border-radius:14px;font-size:13px;padding:8px}
+.pick .ph .ph-tag{font-size:11px}
+.pick span{font-family:'Caveat',cursive;font-weight:700;font-size:30px;line-height:1.05;color:var(--black)}
+@media(min-width:800px){.pick{grid-template-columns:1fr}.pick span{padding:0 6px 6px}}
+.receive{display:grid;gap:28px;margin-top:44px}
+@media(min-width:900px){.receive{grid-template-columns:1fr 1fr;align-items:center;gap:48px}}
+.receive-list{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.receive-list li{display:flex;gap:14px;align-items:flex-start;font-size:20px;font-weight:700;color:var(--black);line-height:1.35}
+.last .price{background:#fff;border:3px solid var(--black);box-shadow:0 8px 0 var(--black);margin:0;padding:28px 20px}
+.last .price .meta{display:block;font-size:18px;font-weight:600;color:var(--black);margin-top:12px;line-height:1.5}
+
+/* =========================================================
+   DOBRA 11 — GARANTIA
+   ========================================================= */
+.guarantee{display:grid;gap:36px}
+@media(min-width:900px){.guarantee{grid-template-columns:.9fr 1.1fr;align-items:center;gap:64px}}
+.g-card{background:var(--green);border:3px solid var(--black);border-radius:30px;box-shadow:0 10px 0 var(--black);padding:34px 22px 26px;text-align:center}
+.g-card .big{display:block;font-size:clamp(110px,32vw,170px);font-weight:900;line-height:.85;color:var(--black);letter-spacing:-.04em}
+.g-card .lbl{display:block;font-size:clamp(28px,7.6vw,38px);font-weight:900;line-height:1.08;text-transform:uppercase;color:var(--black);margin-top:10px}
+.g-channel{margin-top:22px;background:#fff;border-radius:16px;padding:16px;font-size:18px;font-weight:600;color:var(--black);line-height:1.45}
+.g-list{list-style:none;padding:0;margin:20px 0 22px;display:grid;gap:12px}
+.g-list li{display:flex;gap:14px;align-items:center;font-size:21px;font-weight:700;color:var(--black)}
+
+/* =========================================================
+   DOBRA 12 — ESPECIALISTA
+   ========================================================= */
+.expert{display:grid;gap:36px}
+@media(min-width:900px){.expert{grid-template-columns:.85fr 1.15fr;align-items:start;gap:64px}.expert-photo{position:sticky;top:32px}}
+.expert-photo{position:relative;max-width:460px;width:100%;margin:0 auto}
+.expert-photo .ph{--ar:4/5;border-radius:30px}
+.expert-img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:28px;border:3px solid var(--black);box-shadow:0 10px 0 var(--black)}
+.expert-photo .sticker{bottom:-14px;right:16px;left:auto;font-size:32px}
+.nots{list-style:none;padding:0;margin:24px 0;display:grid;gap:12px}
+.nots li{display:flex;gap:14px;align-items:center;font-size:21px;font-weight:700;color:var(--black);line-height:1.3}
+.x{width:30px;height:30px;border-radius:50%;background:rgba(15,15,15,.08);display:grid;place-items:center;flex-shrink:0}
+.x .ico{width:15px;height:15px;stroke-width:3}
+.statement{font-size:clamp(28px,7.4vw,40px);font-weight:900;line-height:1.12;color:var(--black);margin:30px 0}
+.grape{margin:28px 0;padding:22px;background:var(--off);border-radius:20px;font-size:20px;font-weight:600;color:var(--black)}
+
+/* =========================================================
+   DOBRA 13 — SERÁ QUE É PARA MIM?
+   ========================================================= */
+.doubts{display:grid;gap:30px;margin-top:36px}
+.thought{position:relative;background:#fff;border:3px solid var(--black);border-radius:26px;padding:22px 22px;font-size:clamp(22px,5.6vw,26px);font-weight:800;line-height:1.28;color:var(--black)}
+.thought::after{content:"";position:absolute;left:34px;bottom:-15px;width:24px;height:24px;background:#fff;border-right:3px solid var(--black);border-bottom:3px solid var(--black);transform:rotate(45deg)}
+.reply{padding:28px 6px 0 6px}
+.reply p{font-size:19px}
+
+/* =========================================================
+   DOBRA 16 — SUPORTE
+   ========================================================= */
+.support{display:grid;gap:30px}
+@media(min-width:800px){.support{grid-template-columns:1fr 1fr;align-items:center;gap:56px}}
+.hours{background:var(--off);border-radius:22px;padding:6px 22px}
+.hours div{display:flex;justify-content:space-between;gap:12px;padding:16px 0;border-bottom:2px solid var(--line);font-size:19px;color:var(--black)}
+.hours div:last-child{border-bottom:0}
+.hours b{font-weight:800}
+
+/* ---------- Rodapé ---------- */
+footer{background:var(--off);padding:40px 0 48px;text-align:center}
+footer img{height:36px;width:auto;margin:0 auto 14px}
+footer p{font-size:16px;color:var(--ink);margin:0}
+
+/* =========================================================
+   AJUSTES FINOS PARA CELULAR (até 599px)
+   ========================================================= */
+@media(max-width:599px){
+  .wrap,.wrap-wide{padding-left:18px;padding-right:18px}
+  .sec{padding:64px 0}
+  /* Hero: headline, mídia e sequência aparecem mais rápido */
+  .hero{padding:20px 0 52px}
+  .hero-kicker{padding:9px 12px;margin-bottom:16px}
+  .hero-media .ph{--ar:1/1}
+  .process{margin-top:32px;gap:10px}
+  .process li{padding:8px 8px 12px}
+  .process .cap{font-size:24px;gap:7px}
+  .scroll-cue{margin-top:32px}
+  /* Mídias verticais menos altas */
+  .tool-shot .ph,.screens .s-phone{max-width:230px}
+  .teach .ph{max-width:270px}
+  .steps{gap:44px;margin-top:44px}
+  /* Cartões de oferta mais largos = botões em até 2 linhas */
+  #oferta .wrap{padding-left:12px;padding-right:12px}
+  .offer-compact{margin-left:-6px;margin-right:-6px}
+  .offer-body,.oc-in{padding:24px 16px 28px}
+  .btn{padding:16px 14px}
+  .price{padding:20px 12px}
+  .ticks li{font-size:18px}
+  /* Prints da comunidade quase em tela cheia: leitura sem zoom */
+  .prints{margin:0 -18px;padding:12px 18px 24px}
+  .prints > *{flex-basis:88%}
+  .offer-screens{padding:16px 18px 8px}
+  .acc{padding:4px 14px}
+  .acc summary{gap:12px}
+  .thought{padding:18px}
+  .pick{grid-template-columns:96px 1fr}
+}
+@media(max-width:359px){
+  body{font-size:18px}
+  .hero h1{font-size:36px}
+  .btn{font-size:18px}
+}
+
+/* =========================================================
+   TUDO CENTRALIZADO
+   ========================================================= */
+main{text-align:center}
+.h2,.quote-title,.lead,.statement{margin-left:auto;margin-right:auto}
+.kicker,.prints-title,.swipe-hint{justify-content:center}
+.swipe-hint{display:flex}
+@media(min-width:900px){.swipe-hint{display:none}}
+/* Hero */
+.hero-lead{margin-left:auto;margin-right:auto;max-width:22ch}
+.hero h1{max-width:12ch;margin:0 auto}
+.hero{padding-top:44px}
+.process .cap{justify-content:center}
+/* Faixas laterais viram faixas superiores */
+.bridge{border-left:0;padding:18px 0 0;position:relative}
+.bridge::before{content:"";display:block;width:64px;height:6px;border-radius:3px;background:var(--green);margin:0 auto 16px}
+.urg-final{border-left:0;border-top:6px solid var(--yellow)}
+.pause-note{flex-direction:column;text-align:center}
+/* Comunidade */
+.ask{align-items:center}
+.ask-q{border-radius:18px;width:100%}
+.ask-a{justify-content:center;padding-left:0}
+/* Simulação */
+.sim-top{flex-direction:column;align-items:center;gap:2px}
+/* Receitas e módulos */
+.recipe .nm{justify-content:center}
+.acc summary{text-align:center}
+.acc .ad{padding-left:0!important}
+/* Ferramentas */
+.tool{grid-template-columns:1fr;justify-items:center;text-align:center}
+.extras h3{justify-content:center}
+/* Listas com ✓ / ✕ */
+.wins li,.dchecks li,.ticks li,.g-list li,.nots li,.oc-facts li,.receive-list li,.dl-card .inc{justify-content:center;text-align:center}
+.receive-list,.oc-facts{justify-items:center}
+/* Depoimentos */
+.testi-top{text-align:center}
+/* Prazo: etapas centralizadas no celular */
+@media(max-width:559px){.phases{width:max-content;max-width:100%;margin-left:auto;margin-right:auto}.phase{text-align:left}}
+.dl-card{align-items:center;text-align:center}
+/* Balão de dúvida com ponta no meio */
+.thought::after{left:50%;margin-left:-12px}
+.reply{padding:28px 6px 0}
+/* Jornada: no celular, etapas empilhadas e centralizadas */
+@media(max-width:999px){
+  .stage{grid-template-columns:1fr;justify-items:center;text-align:center;padding-bottom:44px}
+  .stage:not(:last-child)::before{left:50%;margin-left:-2px;top:auto;bottom:6px;height:26px}
+  .stage-k{margin-top:12px}
+  .stage .ph{margin:0 auto}
+}
+@media(min-width:1000px){.stage{justify-items:center;text-align:center}.stage:not(:last-child)::before{left:calc(50% + 34px);right:calc(-50% + 10px)}}
+/* Atendimento */
+.hours div{justify-content:center;gap:10px}
+.hours div b::after{content:":"}
+/* Última chamada */
+.pick{text-align:center}
+
+/* Dobra 2: sabonete em destaque + pergunta + fechamento */
+.hero-soap{margin:4px auto 28px;max-width:420px}
+.hero-soap img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:24px;border:3px solid var(--black);box-shadow:0 8px 0 var(--black)}
+.d2-q{font-size:clamp(25px,6.6vw,32px);font-weight:900;line-height:1.2;color:var(--black);margin:26px auto 0;max-width:20ch}
+.d2-close{max-width:620px;margin:44px auto 0;font-size:clamp(21px,5.3vw,24px);font-weight:700;line-height:1.45;color:var(--black)}
+
+/* Dobra 2: sequência da barra (fotos) + etapas só em texto */
+#consigo .process{margin-top:40px}
+.p-img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:13px;background:var(--off)}
+.steps{gap:36px;margin-top:56px}
+.step{display:block;max-width:560px;margin:0 auto}
+@media(min-width:900px){.steps{grid-template-columns:1fr 1fr;gap:48px 56px;max-width:1000px;margin-left:auto;margin-right:auto}}
+
+/* ---------- Carrosséis (comunidade, depoimentos, telas da oferta) ---------- */
+[data-carousel]{position:relative;scrollbar-width:none;-ms-overflow-style:none;scroll-behavior:smooth}
+[data-carousel]::-webkit-scrollbar{display:none}
+.dots{display:flex;justify-content:center;gap:2px;margin-top:4px}
+.dots button{width:32px;height:32px;padding:0;border:0;background:transparent;display:grid;place-items:center;cursor:pointer}
+.dots button::after{content:"";width:11px;height:11px;border-radius:999px;border:2px solid var(--black);background:transparent;transition:width .25s ease-out,background .25s ease-out}
+.dots button.on::after{width:28px;background:var(--black)}
+@media(min-width:900px){.dots{display:none}}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<!-- SVG sprites -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+  <symbol id="i-cut" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9-9-9z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5h.01"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-swipe" viewBox="0 0 24 24"><path d="M4 12h16M15 7l5 5-5 5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="brand-stripe"><span></span><span></span><span></span></div>
+</header>
+
+<main>
+
+<!-- =====================================================
+     DOBRA 1 — PRIMEIRA DOBRA (sem botão de compra)
+     ===================================================== -->
+<section class="hero" id="inicio">
+  <div class="wrap-wide">
+    <div class="hero-grid">
+      <div>
+        <h1>Você começa com uma <span class="mark">barra pronta</span>:</h1>
+        <p class="hero-lead">corta em pedaços, derrete e transforma em sabonetes para vender <span class="gain">(e pode faturar até R$2.740,00 mês)</span></p>
+      </div>
+      <div class="hero-media">
+        <!-- Primeira imagem da página: sem lazy, com prioridade alta -->
+        <img class="hero-img" src="assets/hero/barra-ao-cacho-de-uva.webp" width="1080" height="1350" fetchpriority="high" decoding="async" alt="Da barra ao sabonete: barra pronta cortada em cubos, base lilás derretida sendo despejada na forma e o cacho de uva pronto na mão">
+        <span class="sticker s1">barra pronta</span>
+        <span class="sticker s2">sabonete pronto!</span>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#consigo">
+      Veja como a barra vira seu primeiro sabonete
+      <span class="arw" aria-hidden="true">↓</span>
+    </a>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 2 — "SERÁ QUE EU CONSIGO?"
+     ===================================================== -->
+<section class="sec" id="consigo">
+  <div class="wrap">
+    <h2 class="quote-title"><span class="qm" aria-hidden="true">“</span>É lindo… será que eu consigo fazer?”</h2>
+    <figure class="hero-soap">
+      <img src="assets/processo/4-sabonete-pronto.webp" width="720" height="720" loading="lazy" decoding="async" alt="Sabonete de mel com duas camadas e desenho de colmeia, nas mãos">
+    </figure>
+    <p class="lead">Você olha esse sabonete de mel, com duas camadas e desenho de colmeia, e imagina ele numa caixinha com laço.</p>
+    <p class="d2-q">Mas como uma barra pronta vira um sabonete assim?</p>
+    <p class="bridge">A Viviane mostra cada etapa para você acompanhar.</p>
+  </div>
+
+  <div class="wrap-wide">
+    <ol class="process" aria-label="Da barra ao sabonete">
+      <li>
+        <img class="p-img" src="assets/processo/1-barra-pronta.webp" width="720" height="720" loading="lazy" decoding="async" alt="Barra pronta de base glicerinada sendo cortada sobre o tapete de silicone">
+        <div class="cap"><span class="n-dot">1</span>barra pronta</div>
+      </li>
+      <li>
+        <img class="p-img" src="assets/processo/2-barra-cortada.webp" width="720" height="720" loading="lazy" decoding="async" alt="Mãos de luva segurando a barra cortada em pedaços">
+        <div class="cap"><span class="n-dot">2</span>corta em pedaços</div>
+      </li>
+      <li>
+        <img class="p-img" src="assets/processo/3-base-derretida.webp" width="720" height="720" loading="lazy" decoding="async" alt="Base derretida sendo despejada na forma de silicone rosa">
+        <div class="cap"><span class="n-dot">3</span>derrete e despeja</div>
+      </li>
+      <li>
+        <img class="p-img" src="assets/processo/4-sabonete-pronto.webp" width="720" height="720" loading="lazy" decoding="async" alt="Sabonete pronto, com camada de mel por cima, nas mãos">
+        <div class="cap"><span class="n-dot">4</span>vira sabonete</div>
+      </li>
+    </ol>
+
+
+    <p class="d2-close">Da barra cortada em pedaços ao sabonete saindo da forma, você vê como fazer esse acabamento, mesmo começando do zero.</p>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 3 — COMUNIDADE
+     ===================================================== -->
+<section class="sec bg-green" id="comunidade">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;margin:0 auto">
+      <span class="only">Comunidade de alunas</span>
+      <h2 class="h2">O único curso com uma <span class="mark-g">comunidade ativa</span> para você pedir ajuda</h2>
+      <p class="lead">Dentro do curso, você tem acesso à comunidade de alunas para tirar dúvidas e compartilhar fotos.</p>
+    </div>
+
+    <div class="asks">
+      <div class="ask">
+        <p class="ask-q">Não sabe se comprou a base certa?</p>
+        <p class="ask-a"><svg class="ico"><use href="#i-arrow"/></svg>Publique uma foto e pergunte.</p>
+      </div>
+      <div class="ask">
+        <p class="ask-q">O sabonete ficou mole ou perdeu o cheiro?</p>
+        <p class="ask-a"><svg class="ico"><use href="#i-arrow"/></svg>Conte como fez e peça orientação.</p>
+      </div>
+      <div class="ask">
+        <p class="ask-q">Quer mostrar seu primeiro cacho de uva?</p>
+        <p class="ask-a"><svg class="ico"><use href="#i-arrow"/></svg>Compartilhe a foto e troque experiências com outras alunas.</p>
+      </div>
+    </div>
+
+    <p class="prints-title">Veja as dúvidas e respostas de quem já está fazendo:</p>
+    <p class="swipe-hint"><svg class="ico"><use href="#i-swipe"/></svg>Arraste para o lado</p>
+    <!-- Prints grandes e recortados: a mensagem precisa ficar legível no celular sem ampliar -->
+    <div class="prints" data-carousel>
+      <figure class="cm-card">
+        <button class="testi-shot cm-shot" type="button" aria-label="Ampliar print"><img src="assets/comunidade/comunidade-1.webp" width="500" height="500" loading="lazy" decoding="async" alt="Post na comunidade: aluna mostra seu primeiro sabonete de cacho de uva lilás"><span class="zoom">Ampliar</span></button>
+        <figcaption><b>Meu primeiro sabonete</b>“Cheirinho ficou bem fraco e alguns detalhes irregulares, mas gostei por ser o primeirinho.”</figcaption>
+      </figure>
+      <figure class="cm-card">
+        <button class="testi-shot cm-shot" type="button" aria-label="Ampliar print"><img src="assets/comunidade/comunidade-2.webp" width="500" height="500" loading="lazy" decoding="async" alt="Post na comunidade: aluna mostra sabonetes em camadas de céu com nuvens e de melancia"><span class="zoom">Ampliar</span></button>
+        <figcaption><b>Sabonetes em camadas</b>“Fiz pela 1ª vez sabonetes em camadas. Aí coloquei umas nuvenzinhas pra indicar que era o céu.”</figcaption>
+      </figure>
+      <figure class="cm-card">
+        <button class="testi-shot cm-shot" type="button" aria-label="Ampliar print"><img src="assets/comunidade/comunidade-3.webp" width="500" height="500" loading="lazy" decoding="async" alt="Post na comunidade: aluna mostra sabonetes massageadores de carvão e camomila e pergunta sobre o aroma"><span class="zoom">Ampliar</span></button>
+        <figcaption><b>Aroma</b>“Olá, fiz os primeiros sabonetes, esse de carvão e camomila. Na parte do carvão, coloquei essência hidrossolúvel…”</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 4 — SIMULAÇÃO
+     ===================================================== -->
+<section class="sec" id="renda">
+  <div class="wrap-wide">
+    <span class="kicker k-yellow">Simulação</span>
+    <h2 class="h2" style="max-width:15ch">Quanto seus sabonetes podem render?</h2>
+
+    <div class="sim">
+      <div class="box-visual">
+        <!-- Vídeo leve (MP4 2,3 MB no lugar do GIF de 95 MB). Só baixa e toca quando aparece na tela. -->
+        <video class="sim-video js-lazyvideo" data-src="assets/video/desenforme.mp4" poster="assets/video/desenforme-poster.webp" width="720" height="900" muted loop playsinline preload="none" aria-label="Vídeo: sabonetes sendo desenformados, com bucha vegetal e massageador"></video>
+        <div class="price-tag"><span class="t1">3 sabonetes</span><span class="t2">R$45</span></div>
+      </div>
+
+      <div>
+        <p class="sim-sub">Veja uma simulação com 3 sabonetes por caixinha, vendida a R$45:</p>
+        <div class="sim-rows">
+          <div class="sim-row">
+            <div class="sim-top"><span class="q">10 caixinhas</span><span class="v">R$450 em vendas</span></div>
+            <div class="sim-track"><div class="sim-fill" style="--w:17%"></div></div>
+          </div>
+          <div class="sim-row">
+            <div class="sim-top"><span class="q">30 caixinhas</span><span class="v">R$1.350 em vendas</span></div>
+            <div class="sim-track"><div class="sim-fill" style="--w:50%"></div></div>
+          </div>
+          <div class="sim-row">
+            <div class="sim-top"><span class="q">60 caixinhas</span><span class="v">R$2.700 em vendas</span></div>
+            <div class="sim-track"><div class="sim-fill" style="--w:100%"></div></div>
+          </div>
+        </div>
+        <p class="sim-close">Você aprende a fazer os sabonetes, montar as caixinhas e calcular seu preço.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 5 — POR DENTRO DO CURSO
+     ===================================================== -->
+<section class="sec bg-off" id="curso">
+  <div class="wrap-wide">
+    <span class="kicker">Por dentro do curso</span>
+    <h2 class="h2" style="max-width:17ch">Veja os sabonetes que você vai aprender a fazer.</h2>
+    <p class="lead">12 receitas para montar caixinhas cheias de capricho:</p>
+
+    <ul class="recipes">
+      <li class="recipe"><img class="r-img" src="assets/receitas/cacho-de-uva.webp" alt="Sabonetes em formato de cacho de uva, em várias cores" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>01</i>Cacho de uva</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/melancia.webp" alt="Sabonetes de melancia em camadas vermelha, branca e verde" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>02</i>Melancia</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/cristal-transparente.webp" alt="Sabonetes transparentes com pedaços lilás que lembram cristais" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>03</i>Cristal transparente</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/bicolor-camadas.webp" alt="Sabonete bicolor com camada marrom e camada creme, nas mãos" width="500" height="500" loading="lazy" decoding="async"><span class="nm"><i>04</i>Bicolor em camadas</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/marmorizado-frutas-secas.webp" alt="Barras de sabonete verde marmorizado com flores secas por cima" width="500" height="500" loading="lazy" decoding="async"><span class="nm"><i>05</i>Marmorizado com frutas secas</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/massageador.webp" alt="Sabonete massageador lilás na mão" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>06</i>Massageador</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/mel.webp" alt="Barras de sabonete de mel com relevo de favo" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>07</i>Mel</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/bucha-vegetal.webp" alt="Sabonetes com bucha vegetal aparecendo por dentro" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>08</i>Bucha vegetal</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/amendoas-camomila.webp" alt="Barras de sabonete com amêndoas e flocos por cima" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>09</i>Amêndoas com camomila</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/cafe-com-coco.webp" alt="Barra de sabonete de café com coco mostrada de perto" width="500" height="500" loading="lazy" decoding="async"><span class="nm"><i>10</i>Café com coco</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/lavanda.webp" alt="Barras de sabonete de lavanda marmorizadas em lilás" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>11</i>Lavanda</span></li>
+      <li class="recipe"><img class="r-img" src="assets/receitas/carvao-ativado.webp" alt="Sabonete de carvão ativado fazendo espuma nas mãos" width="720" height="720" loading="lazy" decoding="async"><span class="nm"><i>12</i>Carvão ativado</span></li>
+    </ul>
+
+    <div class="divider-cut" aria-hidden="true"><svg class="ico"><use href="#i-cut"/></svg></div>
+
+    <div class="wrap" style="padding:0;margin:0 auto">
+      <h3 class="h2" style="max-width:17ch">E as aulas começam antes da primeira receita.</h3>
+      <p class="lead">São 10 módulos para você consultar cada etapa:</p>
+    </div>
+
+    <div class="screens">
+      <img class="shot s-desk" src="assets/plataforma/aula-computador.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Plataforma Handify no computador: aula Sabonete hidratante simples com o vídeo da Viviane e a lista de conteúdo do curso ao lado">
+      <img class="shot s-phone" src="assets/plataforma/modulos-celular.webp" width="1080" height="1920" loading="lazy" decoding="async" alt="Plataforma Handify no celular: lista de módulos e aulas do curso, com a duração de cada aula">
+    </div>
+
+    <div class="wrap" style="padding:0;margin:0;max-width:820px">
+      <div class="acc">
+        <details><summary><span class="an">1</span><span class="at">Início Perfeito</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Materiais, utensílios, cuidados e fornecedores.</p></details>
+        <details><summary><span class="an">2</span><span class="at">Bases Glicerinadas</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Qual barra comprar, como derreter, quando adicionar os ingredientes, desenformar e conservar.</p></details>
+        <details><summary><span class="an">3</span><span class="at">Aditivos que Encantam</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Essências, óleos, argilas, esfoliantes e corantes: como escolher e usar.</p></details>
+        <details><summary><span class="an">4</span><span class="at">Receitas Essenciais</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">As aulas de amêndoas com camomila, café com coco, lavanda e carvão ativado.</p></details>
+        <details><summary><span class="an">5</span><span class="at">Receitas Criativas</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">O passo a passo dos outros 8 modelos, incluindo uva, melancia e bucha vegetal.</p></details>
+        <details><summary><span class="an">6</span><span class="at">Suas Próprias Formas</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Como escolher formas de silicone, adaptar utensílios e fazer formas caseiras.</p></details>
+        <details><summary><span class="an">7</span><span class="at">Acabamento e Preço</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Sabonetes líquidos, correção de erros, embalagens e precificação.</p></details>
+        <details><summary><span class="an">8</span><span class="at">Vendas e Kits</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Combinações para presentes, datas especiais e primeiros passos para vender.</p></details>
+        <details><summary><span class="an">9</span><span class="at">Guia de Ingredientes</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">O que cada ingrediente acrescenta à espuma, textura, cor e aroma.</p></details>
+        <details><summary><span class="an">10</span><span class="at">Dúvidas Frequentes</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><p class="ad">Respostas sobre produção, conservação, embalagem e vendas.</p></details>
+      </div>
+      <p class="closing">Você pode pausar, voltar ao trecho e fazer junto. Se ainda ficar uma dúvida, pode perguntar na comunidade.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 6 — BÔNUS
+     ===================================================== -->
+<section class="sec bg-yellow" id="bonus">
+  <div class="wrap-wide">
+    <span class="kicker k-yellow">Ferramentas e bônus</span>
+    <h2 class="h2" style="max-width:22ch">Além das aulas, você recebe ferramentas para calcular, colocar preço e preparar seus sabonetes para vender.</h2>
+
+    <div class="tools-grid">
+      <div class="tool-shot">
+        <img class="shot tool-img" src="assets/plataforma/minha-receita.webp" width="500" height="500" loading="lazy" decoding="async" alt="Celular com a ferramenta Minha Receita aberta, mostrando custo por sabonete, preço de venda e sobra no exemplo do cacho de uva, ao lado de dois sabonetes de cacho de uva embalados">
+      </div>
+      <ul class="tools">
+        <li class="tool">
+          <span class="tool-ic"><svg class="ico"><use href="#i-calc"/></svg></span>
+          <div><h3>Minha Receita</h3><p>Organize os ingredientes, calcule quanto custa fazer sua receita e por quanto vender.</p></div>
+        </li>
+        <li class="tool">
+          <span class="tool-ic"><svg class="ico"><use href="#i-target"/></svg></span>
+          <div><h3>Meta de Renda</h3><p>Defina quanto quer ganhar por mês e calcule quantos sabonetes precisaria vender e a qual preço.</p></div>
+        </li>
+        <li class="tool">
+          <span class="tool-ic"><svg class="ico"><use href="#i-tag"/></svg></span>
+          <div><h3>Rótulo do Produto</h3><p>Monte o rótulo do seu sabonete com as informações do produto, pronto para imprimir.</p></div>
+        </li>
+        <li class="tool">
+          <span class="tool-ic"><svg class="ico"><use href="#i-clock"/></svg></span>
+          <div><h3>Validade do Produto</h3><p>Consulte o que influencia a duração do seu sabonete e prepare a informação de validade para o rótulo.</p></div>
+        </li>
+        <li class="tool">
+          <span class="tool-ic"><svg class="ico"><use href="#i-help"/></svg></span>
+          <div><h3>Deu Problema?</h3><p>Seu sabonete não ficou como esperava? Consulte possíveis causas e orientações para corrigir.</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="wrap" style="padding:0;margin:0 auto;max-width:820px">
+      <h3 class="extras-title">E você também recebe:</h3>
+      <ul class="extras">
+        <li><h3><span class="pill">Bônus</span>Sabonetes Líquidos Glicerinados</h3><p>Aprenda mais uma opção para oferecer junto dos seus sabonetes em barra.</p></li>
+        <li><h3><span class="pill">Bônus</span>Embalagens Simples e Acessíveis</h3><p>Aprenda a montar uma apresentação bonita sem depender de caixas caras.</p></li>
+        <li><h3><span class="pill">Bônus</span>Precificação Descomplicada</h3><p>Entenda como incluir ingredientes e embalagem no preço para não cobrar menos do que gastou.</p></li>
+        <li><h3><span class="pill">Bônus</span>Guia de Ingredientes</h3><p>Entenda o que cada ingrediente acrescenta ao sabonete antes de fazer suas combinações.</p></li>
+        <li><h3><span class="pill">Bônus</span>Dúvidas Frequentes</h3><p>Consulte respostas sobre preparo, conservação, embalagem e os primeiros passos para vender.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 7 — DEPOIMENTOS
+     ===================================================== -->
+<section class="sec" id="alunas">
+  <div class="wrap-wide">
+    <div class="wrap" style="padding:0;margin:0 auto">
+      <span class="kicker k-green">Feito por alunas</span>
+      <h2 class="h2">Veja os sabonetes que nossas alunas fizeram.</h2>
+      <ul class="wins">
+        <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>O cacho de uva saiu da forma.</li>
+        <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>A bucha ficou dentro do sabonete.</li>
+        <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>A primeira caixinha ficou pronta.</li>
+      </ul>
+      <p class="lead">Veja as fotos e o que elas contaram sobre aprender:</p>
+    </div>
+
+    <p class="swipe-hint"><svg class="ico"><use href="#i-swipe"/></svg>Arraste para o lado · toque no print para ampliar</p>
+    <!-- Ordem: primeiro quem começou do zero; vendas só onde a própria aluna conta no print -->
+    <div class="testi" data-carousel>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Primeira vez</span><p class="testi-q">“Primeiros sabonetes da vida!”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo3.webp" width="600" height="644" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra seus três primeiros sabonetes lilás com relevo de flores"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Começando</span><p class="testi-q">“Eu estou adorando, estou comprando devagar os materiais.”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo1.webp" width="600" height="900" loading="lazy" decoding="async" alt="Print de conversa: aluna conta que está adorando o curso e mostra os primeiros sabonetes na mão e na forma"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Feito hoje</span><p class="testi-q">“Olha os sabonetes que produzi hoje! Amei demais!”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo4.webp" width="1023" height="1537" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra sabonetes massageadores coloridos, alguns com bucha vegetal"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Primeiro kit</span><p class="testi-q">“Produzi meu primeiro kit de sabonetes! O curso é maravilhoso! Vale cada centavo!”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo5.webp" width="1023" height="1537" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra caixinha de papelão com três sabonetes massageadores"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Com o toque dela</span><p class="testi-q">“Usei a receita base das aulas e dei meu toque. Ficou ainda mais lindo do que eu imaginava!”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo8.webp" width="1023" height="1537" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra sabonetes marmorizados em lilás e amarelo com lavanda"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip">Datas especiais</span><p class="testi-q">“Boa tarde, Pro Viviane, que achou para o Dia das Mães?”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo2.webp" width="600" height="588" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra sabonetes vermelhos para o Dia das Mães, em formato de coração, rosa e escrito Mãe"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip c-sale">Primeiras vendas</span><p class="testi-q">“Postei hoje de manhã e já vendi 6 unidades! As clientes amaram demais!”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo6.webp" width="1023" height="1537" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra sabonetes de mel em formato de favo e conta que vendeu 6 unidades"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+      <article class="testi-card">
+        <div class="testi-top"><span class="testi-chip c-sale">Primeiras vendas</span><p class="testi-q">“Recuperei o investimento dos materiais só com essas 4 vendas.”</p></div>
+        <button class="testi-shot" type="button" aria-label="Ampliar print"><img src="assets/depoimentos/dep-sapo7.webp" width="1023" height="1537" loading="lazy" decoding="async" alt="Print de conversa: aluna mostra sabonetes de carvão ativado e conta que vendeu 4 e recuperou o investimento dos materiais"><span class="zoom">Ver print inteiro</span></button>
+      </article>
+    </div>
+
+    <dialog class="lb" id="lb">
+      <button class="lb-close" type="button" id="lb-close">Fechar ✕</button>
+      <div class="lb-in"><img id="lb-img" alt=""></div>
+    </dialog>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 8 — PRAZO / ACESSO VITALÍCIO
+     ===================================================== -->
+<section class="sec bg-off js-vit" id="prazo">
+  <div class="wrap">
+    <span class="kicker k-yellow">Acesso vitalício</span>
+    <h2 class="h2">Garanta aulas sem prazo para terminar.</h2>
+    <div class="urg-lines">
+      <p>Ficou sem tempo esta semana? Você continua depois.</p>
+      <p>Quer repetir uma receita? Assista novamente.</p>
+      <p>Até <strong class="js-deadline">[data]</strong>, sua inscrição inclui acesso vitalício ao curso.</p>
+    </div>
+
+    <div class="deadline">
+      <div class="cal" aria-hidden="true">
+        <div class="cal-head" id="cal-head"></div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+      <div class="dl-card">
+        <span class="dl-alert" id="dl-alert" hidden></span>
+        <span class="lbl">Sua inscrição até</span>
+        <span class="dt js-deadline">[data]</span>
+        <span class="inc"><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Acesso vitalício incluído.</span>
+        <div class="dl-count" id="dl-count" hidden aria-live="off">
+          <span class="dl-count-t">Encerra em</span>
+          <div class="dl-boxes"><span><b id="cd-h">00</b>horas</span><span><b id="cd-m">00</b>min</span><span><b id="cd-s">00</b>seg</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phases">
+      <div class="phase done"><div class="dot"><svg class="ico"><use href="#i-check"/></svg></div><span class="pt">Abertura</span></div>
+      <div class="phase now"><div class="dot"></div><span class="pt" id="ph-now">Prazo atual</span></div>
+      <div class="phase"><div class="dot"></div><span class="pt" id="ph-end">Encerramento em <span class="js-deadline">[data]</span></span></div>
+    </div>
+
+    <p class="urg-final">Depois desse prazo, o acesso vitalício deixa de fazer parte das novas inscrições.</p>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 9 — QUEM VAI ENSINAR
+     ===================================================== -->
+<section class="sec bg-dark" id="viviane-ensina">
+  <div class="wrap-wide">
+    <div class="teach">
+      <!-- MP4 de 3,9 MB no lugar do GIF de 149 MB. Só baixa e toca quando aparece na tela. -->
+      <video class="teach-video js-lazyvideo" data-src="assets/video/viviane-ensinando.mp4" poster="assets/video/viviane-ensinando-poster.webp" width="720" height="900" muted loop playsinline preload="none" aria-label="Vídeo: Viviane ensinando o sabonete de cacho de uva, da base derretida na forma até o cacho pronto"></video>
+      <div>
+        <span class="kicker k-green">Aula na prática</span>
+        <h2 class="h2">Viviane mostra o preparo. Você acompanha cada etapa.</h2>
+        <ul class="dchecks">
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Qual barra usar.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Como derreter sem deixar ferver.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Quando adicionar os ingredientes.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Quando tirar da forma.</li>
+        </ul>
+        <p class="lead">Você vê as mãos da professora fazendo os sabonetes que também vai aprender.</p>
+        <p class="lead">Pode pausar na hora de preparar e voltar ao trecho que não entendeu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 10 — PRIMEIRA OFERTA (primeiro botão de compra)
+     ===================================================== -->
+<section class="sec offer-sec" id="oferta">
+  <div class="wrap" style="position:relative">
+    <h2 class="h2 center">Seu primeiro sabonete começa com uma barra pronta e uma aula para acompanhar.</h2>
+  </div>
+  <div class="wrap" style="position:relative;padding-top:12px">
+    <div class="offer">
+      <div class="brand-stripe"><span></span><span></span><span></span></div>
+      <div class="offer-body">
+        <img class="offer-viv" src="assets/viviane/viviane-oferta.webp" width="720" height="900" loading="lazy" decoding="async" alt="Viviane sorrindo na bancada do ateliê, com bandejas de sabonetes prontos e o cortador de barras">
+        <h3>Receba o Saponaria Brasil completo:</h3>
+        <ul class="ticks">
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>10 módulos, começando pelos materiais.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>12 receitas de sabonetes.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Aulas de embalagens, kits e precificação.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Comunidade para publicar fotos e tirar dúvidas.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Ferramentas Minha Receita, Meta de Renda e Rótulo do Produto.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Ferramentas Validade do Produto e Deu Problema?</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Bônus de sabonetes líquidos e guia de ingredientes.</li>
+          <li class="js-vit"><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span><span>Acesso vitalício para inscrições até <span class="js-deadline">[data]</span>.</span></li>
+        </ul>
+        <div class="price">
+          <span class="by">Tudo por</span>
+          <span class="val" data-fill="preco"><span class="fill">[preço confirmado]</span></span>
+          <span class="inst" data-fill="parcelamento"><span class="fill">[condição de parcelamento confirmada]</span></span>
+        </div>
+        <a class="btn js-checkout" href="#">Quero aprender a fazer meus sabonetes</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- =====================================================
+     DOBRA 11 — GARANTIA
+     ===================================================== -->
+<section class="sec" id="garantia">
+  <div class="wrap-wide">
+    <div class="guarantee">
+      <div style="max-width:440px;width:100%;margin:0 auto">
+        <div class="g-card">
+          <span class="big">7</span>
+          <span class="lbl">dias de garantia</span>        </div>
+      </div>
+      <div>
+        <h2 class="h2">Abra as aulas antes de decidir se quer continuar.</h2>
+        <p class="lead">Você tem 7 dias de garantia após a compra.</p>
+        <ul class="g-list">
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Veja o curso por dentro.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Confira as receitas.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Conheça as ferramentas e a comunidade.</li>
+        </ul>
+        <p>Se perceber que não é para você, solicite o reembolso dentro desse prazo e receba o valor pago de volta.</p>
+        <div class="btn-area" style="margin-top:32px"><a class="btn js-checkout" href="#">Quero entrar com 7 dias de garantia</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 12 — QUEM É A ESPECIALISTA
+     ===================================================== -->
+<section class="sec bg-off" id="viviane">
+  <div class="wrap-wide">
+    <div class="expert">
+      <div class="expert-photo">
+        <img class="expert-img" src="assets/viviane/viviane-lojas.webp" width="500" height="500" loading="lazy" decoding="async" alt="Viviane de avental Saponaria Brasil segurando um sabonete, ao lado da fachada de uma loja e de sabonetes embalados">
+        <span class="sticker">Viviane</span>
+      </div>
+      <div>
+        <span class="kicker">Quem é a especialista</span>
+        <h2 class="h2">A barra já vinha pronta. Foi daí que Viviane começou.</h2>
+        <p class="lead">Depois de ser demitida na pandemia, ela começou a fazer sabonetes para vender.</p>
+        <ul class="nots">
+          <li><span class="x"><svg class="ico"><use href="#i-x"/></svg></span>Sem fabricar a base.</li>
+          <li><span class="x"><svg class="ico"><use href="#i-x"/></svg></span>Sem manusear soda cáustica.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Aprendendo a transformar a barra pronta em sabonetes bonitos.</li>
+        </ul>
+        <p class="statement">Esse começo virou um negócio. Hoje, Viviane tem <span class="mark">duas lojas.</span></p>
+        <p>E decidiu gravar o curso para mostrar a outras mulheres como começar pelo mesmo processo: cortar a barra, derreter e acompanhar o preparo de cada receita.</p>
+        <p class="grape">Aquele cacho de uva que parece tão difícil? Começa com uma barra pronta e ganha o formato no molde.</p>
+        <p><strong>No Saponaria Brasil, você vê a Viviane fazendo e aprende a fazer também.</strong></p>
+        <div class="btn-area" style="margin-top:32px"><a class="btn js-checkout" href="#">Quero aprender com a Viviane</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 13 — SERÁ QUE É PARA MIM?
+     ===================================================== -->
+<section class="sec" id="para-mim">
+  <div class="wrap">
+    <h2 class="h2">Será que é para mim?</h2>
+    <div class="doubts">
+      <div>
+        <p class="thought">“Tenho medo de comprar os materiais e não conseguir.”</p>
+        <div class="reply"><p>Assista à receita antes de comprar. Veja qual base, forma e ingredientes ela pede. Você pode começar por um modelo, sem comprar material para os 12.</p></div>
+      </div>
+      <div>
+        <p class="thought">“Já tentei com vídeo da internet e deu errado.”</p>
+        <div class="reply"><p>Aqui, você encontra o preparo da base, a receita e as aulas de correção de erros no mesmo curso. Se travar, pode mostrar o que aconteceu na comunidade e pedir orientação.</p></div>
+      </div>
+      <div>
+        <p class="thought">“E se eu fizer, mas não souber vender?”</p>
+        <div class="reply"><p>Você também aprende a montar kits, embalar e calcular quanto cobrar. Pode começar oferecendo um modelo por encomenda, sem produzir uma coleção inteira antes de ter pedidos.</p></div>
+      </div>
+    </div>
+    <div class="btn-area"><a class="btn js-checkout" href="#">Quero começar pelo primeiro sabonete</a></div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 14 — REPETE A OFERTA (formato jornada)
+     ===================================================== -->
+<section class="sec bg-off" id="oferta-completa">
+  <div class="wrap-wide">
+    <span class="kicker">O Saponaria Brasil completo</span>
+    <h2 class="h2" style="max-width:16ch">Da lista de compras à caixinha com preço.</h2>
+    <p class="lead">Você recebe as aulas e as ferramentas para cada uma dessas etapas:</p>
+
+    <ol class="journey">
+      <li class="stage">
+        <span class="stage-dot">1</span>
+        <div>
+          <p class="stage-k">Antes de comprar</p>
+          <p>Materiais, fornecedores e escolha da base.</p>
+          <img class="j-img" src="assets/jornada/1-materiais-fornecedores.webp" width="960" height="720" loading="lazy" decoding="async" alt="Tela da plataforma com a lista de materiais e fornecedores: bases glicerinadas, corantes, essências e moldes">
+        </div>
+      </li>
+      <li class="stage">
+        <span class="stage-dot">2</span>
+        <div>
+          <p class="stage-k">Na hora de fazer</p>
+          <p>Preparo da barra, 12 receitas e comunidade para dúvidas.</p>
+          <img class="j-img" src="assets/jornada/2-aula-pratica.webp" width="960" height="720" loading="lazy" decoding="async" alt="Aula do sabonete calmante de lavanda na plataforma, com as mãos da professora mostrando o sabonete pronto">
+        </div>
+      </li>
+      <li class="stage">
+        <span class="stage-dot">3</span>
+        <div>
+          <p class="stage-k">Se algo der errado</p>
+          <p>Aulas de correção e ferramenta Deu Problema?</p>
+          <img class="j-img" src="assets/jornada/3-comunidade.webp" width="960" height="720" loading="lazy" decoding="async" alt="Post na comunidade: aluna mostra seu primeiro sabonete e comenta que errou a cor">
+        </div>
+      </li>
+      <li class="stage">
+        <span class="stage-dot">4</span>
+        <div>
+          <p class="stage-k">Na hora de oferecer</p>
+          <p>Embalagens, kits, precificação e ferramentas para calcular custos, planejar vendas e criar rótulos.</p>
+          <img class="j-img" src="assets/jornada/4-kit-embalado.webp" width="960" height="720" loading="lazy" decoding="async" alt="Kit embalado com sabonete de cacho de uva e massageador lilás, papel de seda e cartão">
+        </div>
+      </li>
+    </ol>
+
+    <div class="wrap" style="padding:0;margin:0 auto;max-width:720px">
+      <p class="also">Também estão incluídos os sabonetes líquidos, o guia de ingredientes e a ferramenta Validade do Produto.</p>
+    </div>
+
+    <div class="offer-compact">
+      <div class="brand-stripe"><span></span><span></span><span></span></div>
+      <div class="oc-in">
+        <p class="oc-head">O mesmo Saponaria Brasil completo:</p>
+        <p class="oc-sum">10 módulos + receitas + comunidade + ferramentas + bônus.</p>
+        <div class="price" style="margin:24px 0 20px">
+          <span class="by">Por</span>
+          <span class="val" data-fill="preco"><span class="fill">[mesmo preço da primeira oferta]</span></span>
+          <span class="inst" data-fill="parcelamento"><span class="fill">[mesma condição de parcelamento]</span></span>
+        </div>
+        <ul class="oc-facts">
+          <li class="js-vit"><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span><span>Acesso vitalício para inscrições até <span class="js-deadline">[data]</span>.</span></li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>7 dias de garantia após a compra.</li>
+        </ul>
+        <div style="margin-top:30px"><a class="btn js-checkout" href="#">Quero receber o Saponaria Brasil completo</a></div>
+        <p class="btn-note">Curso online. Materiais de produção comprados separadamente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 15 — DÚVIDAS FREQUENTES
+     ===================================================== -->
+<section class="sec" id="duvidas">
+  <div class="wrap" style="max-width:820px">
+    <span class="kicker">Dúvidas frequentes</span>
+    <h2 class="h2">O que você quer saber antes de começar?</h2>
+    <div class="acc faq">
+      <details><summary><span class="at">Preciso de registro na Anvisa para começar?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Para começar a aprender e acompanhar as aulas, não.</p><p>Para vender, você precisa seguir as regras sanitárias. A nova norma prevê dispensa de registro para sabonetes sólidos artesanais que cumpram os requisitos.</p></div></details>
+      <details><summary><span class="at">Nunca fiz sabonete. Será que consigo?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Você não precisa entrar sabendo nem qual barra comprar. É por aí que a Viviane começa.</p><p>Depois, você acompanha o preparo até tirar o sabonete da forma. Aquele cacho de uva bonito deixa de ser só uma foto: vira uma receita para você acompanhar.</p></div></details>
+      <details><summary><span class="at">Vou precisar mexer com soda cáustica?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Não. A base já vem pronta em barra.</p><p>Você aprende a cortar, derreter e acrescentar os ingredientes da receita. Não precisa fabricar a base para começar.</p></div></details>
+      <details><summary><span class="at">Tenho medo de gastar com material e não dar certo.</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Você pode começar com uma receita, sem comprar um armário de formas e essências.</p><p>Veja a aula primeiro. Confira a lista. Compre os materiais daquele sabonete e acompanhe o preparo.</p></div></details>
+      <details><summary><span class="at">Os materiais vêm junto?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Os materiais são comprados separadamente. Mas você não precisa adivinhar o que colocar no carrinho: o curso mostra os materiais e os fornecedores.</p><p>Sua inscrição inclui as aulas, os bônus, as ferramentas e a comunidade.</p></div></details>
+      <details><summary><span class="at">Vou ver fazendo ou só receber receitas?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Você vai ver a barra sendo cortada, a base derretendo e o sabonete saindo da forma.</p><p>São aulas em vídeo. Pode pausar para fazer junto e voltar naquela parte que quer enxergar de novo.</p></div></details>
+      <details><summary><span class="at">Já tentei com vídeo da internet e deu errado. Por que agora seria diferente?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Se o sabonete ficar mole ou perder o cheiro, você tem onde procurar ajuda.</p><p>Além das receitas, recebe aulas sobre preparo da base e correção de erros. E pode publicar uma foto na comunidade, contar como fez e pedir orientação.</p></div></details>
+      <details class="js-vit"><summary><span class="at">E se eu começar e não conseguir terminar agora?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Sua semana apertou? Continue depois.</p><p>Com o acesso vitalício desta oferta, você pode aprender o cacho de uva agora e voltar para fazer os kits em outra ocasião. Só precisa garantir essa condição dentro do prazo informado.</p></div></details>
+      <details><summary><span class="at">Vou saber quanto cobrar e como embalar?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Sim. Você aprende a transformar os sabonetes em uma caixinha pronta para oferecer.</p><p>E, antes de colocar o preço, aprende a contar o que gastou com ingredientes e embalagem. A ferramenta Minha Receita ajuda nessa conta.</p></div></details>
+      <details><summary><span class="at">Preciso encher a casa de sabonetes para começar a vender?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Não precisa começar com estoque.</p><p>Você pode preparar uma amostra, fotografar e oferecer por encomenda. Assim, compra materiais para uma quantidade maior conforme recebe pedidos.</p></div></details>
+      <details><summary><span class="at">Já tem gente vendendo. Ainda tem espaço para mim?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Sim, você pode começar. A própria Anvisa aponta a produção artesanal de cosméticos como uma atividade em crescimento.</p><p>Pense nas ocasiões: aniversário de uma amiga, lembrança para a professora, caixinha de Natal. Você aprende a combinar os sabonetes em presentes para oferecer nessas datas.</p></div></details>
+      <details><summary><span class="at">E se o sabonete estragar antes de eu entregar?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Você também aprende o que acontece depois de desenformar: quando embalar, como guardar e quais cuidados ajudam a conservar o produto.</p><p>A validade depende da receita e das condições de produção. Essas etapas fazem parte do aprendizado, junto com os modelos bonitos.</p></div></details>
+      <details><summary><span class="at">E se eu entrar e achar que não é para mim?</span><span class="pl"><svg class="ico"><use href="#i-plus"/></svg></span></summary><div class="ad"><p>Você tem 7 dias após a compra para abrir as aulas, conhecer as receitas e ver como a Viviane ensina.</p><p>Se não for o que procura, solicite o reembolso dentro desse prazo. Você recebe o valor pago de volta.</p></div></details>
+    </div>
+    <div class="btn-area"><a class="btn js-checkout" href="#">Quero fazer meu primeiro sabonete</a></div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 16 — SUPORTE
+     ===================================================== -->
+<section class="sec bg-off" id="suporte">
+  <div class="wrap-wide" style="max-width:960px">
+    <div class="support">
+      <div>
+        <span class="kicker">Atendimento</span>
+        <h2 class="h2">Ficou com dúvida sobre a compra ou o acesso?</h2>
+        <p class="lead">Fale com a equipe da Handify.</p>
+      </div>
+      <div>
+        <div class="hours">
+          <div><b>Segunda a sexta</b><span>9h às 17h</span></div>
+          <div><b>Sábado</b><span>9h às 12h</span></div>
+          <div><b>Domingos e feriados</b><span>fechado</span></div>
+        </div>
+        <div style="margin-top:28px"><a class="btn btn-outline js-support" href="#"><svg class="ico"><use href="#i-chat"/></svg>Falar com o atendimento</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     DOBRA 17 — ÚLTIMA CHAMADA
+     ===================================================== -->
+<section class="sec last" id="ultima-chamada">
+  <div class="wrap-wide">
+    <h2 class="h2 center" style="max-width:18ch;margin-left:auto;margin-right:auto">Qual sabonete você quer fazer primeiro?</h2>
+
+    <ul class="picks">
+      <li class="pick"><img class="r-img" src="assets/receitas/cacho-de-uva.webp" alt="Sabonetes em formato de cacho de uva, em várias cores" width="720" height="720" loading="lazy" decoding="async"><span>O cacho de uva?</span></li>
+      <li class="pick"><img class="r-img" src="assets/receitas/bucha-vegetal.webp" alt="Sabonetes com bucha vegetal aparecendo por dentro" width="720" height="720" loading="lazy" decoding="async"><span>O de bucha vegetal?</span></li>
+      <li class="pick"><img class="r-img" src="assets/receitas/kit-caixinhas.webp" alt="Duas caixinhas de presente com sabonetes diferentes: mel, massageador, marmorizado, cacho de uva, melancia e cristal" width="720" height="720" loading="lazy" decoding="async"><span>Uma caixinha com modelos diferentes?</span></li>
+    </ul>
+
+    <p class="lead center" style="max-width:30ch;margin:40px auto 0;font-weight:700;color:var(--black)">Entre no Saponaria Brasil e comece pela aula que mostra os materiais.</p>
+
+    <div class="receive">
+      <div>
+        <h3 class="h3" style="margin-bottom:18px">Você recebe:</h3>
+        <ul class="receive-list">
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>10 módulos e 12 receitas.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Comunidade para tirar dúvidas.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>Aulas de embalagens, kits e preços.</li>
+          <li><span class="chk"><svg class="ico"><use href="#i-check"/></svg></span>As 5 ferramentas e todos os bônus apresentados.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="price">
+          <span class="by">Por</span>
+          <span class="val" data-fill="preco"><span class="fill">[mesmo preço da oferta]</span></span>
+          <span class="inst" data-fill="parcelamento"><span class="fill">[mesma condição de parcelamento]</span></span>
+          <span class="meta"><span class="js-vit">Acesso vitalício para inscrições até <span class="js-deadline">[data]</span>.<br></span>7 dias de garantia.</span>
+        </div>
+        <div style="margin-top:30px"><a class="btn js-checkout" href="#">Quero meu acesso ao Saponaria Brasil</a></div>
+        <p class="btn-note">Curso online. Materiais comprados separadamente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/logos/logo-horizontal-tm-azul.png" alt="Handify™">
+    <p>Um espaço feito para aprender e criar.</p>
+    <p style="margin-top:6px">© <span id="yr"></span> Handify™. Todos os direitos reservados.</p>
+  </div>
+</footer>
+<div class="brand-stripe"><span></span><span></span><span></span></div>
+
+<script>
+/* =========================================================
+   CONFIGURAÇÃO — preencha aqui e a página inteira se atualiza
+   ========================================================= */
+const CONFIG = {
+  preco: 'R$67,00',               // à vista
+  parcelamento: 'ou 12x de R$6,93', // confirmado
+  checkout: 'https://checkout.payt.com.br/02b94e5c22ab742d113b90b15de80d21',
+  atendimento: 'https://wa.me/message/4ZNJEPIDOPLRP1?text=O%E2%81%AC%E2%81%AD%E2%81%AC%E2%81%AD%E2%81%A3%E2%81%A6%E2%81%A0%E2%80%AC%E2%81%A0%E2%80%AC%E2%81%A1%E2%80%8D%E2%81%A8%E2%81%A2%E2%81%AA%E2%80%8B%E2%81%AB%E2%81%A4%E2%80%8D%E2%80%AC%E2%81%A4%E2%81%A8%CD%8F%E2%81%A0%E2%80%AC%E2%81%A9%E2%81%A2%CD%8F%E2%81%AC%E2%81%AD%E2%81%AC%E2%81%ADl%C3%A1', // WhatsApp do suporte (mesmo link da Rev10)
+  /* PRAZO DO ACESSO VITALÍCIO
+     prazoIndividual: cada visitante tem até 23:59 do dia da PRIMEIRA visita
+     (data guardada no navegador dela). Quem volta depois vê a oferta sem
+     acesso vitalício. Quem chega pela primeira vez em outro dia ganha o próprio prazo. */
+  prazoIndividual: true,
+  checkoutPosPrazo: '', // checkout da oferta SEM acesso vitalício (vazio = mesmo checkout)
+  prazoFixo: ''         // Opcional: data única para todos, 'AAAA-MM-DD' (tem prioridade)
+};
+
+(function(){
+  const meses=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  const hoje=new Date(); hoje.setHours(0,0,0,0);
+  const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  const lerData=s=>{const [a,m,d]=s.split('-').map(Number);return new Date(a,m-1,d);};
+  let prazo=hoje, prazoReal=false;
+  if(CONFIG.prazoFixo){ prazo=lerData(CONFIG.prazoFixo); prazoReal=true; }
+  else if(CONFIG.prazoIndividual){
+    const CHAVE='saponaria_primeira_visita';
+    let primeira=null;
+    try{ primeira=localStorage.getItem(CHAVE); }catch(e){}
+    if(!primeira || !/^\d{4}-\d{2}-\d{2}$/.test(primeira)){
+      primeira=iso(hoje);
+      try{ localStorage.setItem(CHAVE,primeira); }catch(e){}
+    }
+    prazo=lerData(primeira); prazoReal=true;
+  }
+  const encerrado=prazoReal && prazo<hoje;
+  const txt=prazo.getDate()+' de '+meses[prazo.getMonth()];
+  document.querySelectorAll('.js-deadline').forEach(el=>el.textContent=txt);
+
+  // Prazo já passou para esta visitante: some tudo o que promete acesso vitalício
+  if(encerrado){
+    document.body.classList.add('prazo-encerrado');
+    document.querySelectorAll('.js-vit').forEach(el=>el.hidden=true);
+  }
+
+  // Alerta de urgência (só com prazo real)
+  if(prazoReal && !encerrado){
+    const dias=Math.round((prazo-hoje)/864e5), alerta=document.getElementById('dl-alert');
+    if(dias===0){
+      document.body.classList.add('prazo-hoje');
+      alerta.textContent='Termina hoje'; alerta.hidden=false;
+      document.getElementById('ph-now').textContent='Termina hoje';
+      document.querySelectorAll('.js-deadline').forEach(el=>el.textContent='hoje, '+txt);
+      document.getElementById('ph-end').textContent='Encerramento hoje às 23h59';
+      const box=document.getElementById('dl-count'); box.hidden=false;
+      const fim=new Date(prazo); fim.setHours(23,59,59,999);
+      const dd=n=>String(n).padStart(2,'0');
+      const tic=()=>{ const r=Math.max(0,fim-new Date());
+        document.getElementById('cd-h').textContent=dd(Math.floor(r/36e5));
+        document.getElementById('cd-m').textContent=dd(Math.floor(r%36e5/6e4));
+        document.getElementById('cd-s').textContent=dd(Math.floor(r%6e4/1e3));
+        if(r===0) setTimeout(()=>location.reload(),1500); }; // virou o dia: mostra a oferta sem vitalício
+      tic(); setInterval(tic,1000);
+    } else if(dias>0 && dias<=7){
+      alerta.textContent=dias===1?'Termina amanhã':'Faltam '+dias+' dias'; alerta.hidden=false;
+    }
+  }
+
+  // Calendário do mês do prazo, com a data circulada
+  const head=document.getElementById('cal-head'), grid=document.getElementById('cal-grid');
+  head.textContent=meses[prazo.getMonth()]+' '+prazo.getFullYear();
+  let html=['D','S','T','Q','Q','S','S'].map(w=>'<span class="wd">'+w+'</span>').join('');
+  const first=new Date(prazo.getFullYear(),prazo.getMonth(),1).getDay();
+  const total=new Date(prazo.getFullYear(),prazo.getMonth()+1,0).getDate();
+  for(let i=0;i<first;i++) html+='<span></span>';
+  for(let d=1;d<=total;d++){
+    const cls=d===prazo.getDate()?'d today':(d<prazo.getDate()?'d past':'d');
+    html+='<span class="'+cls+'">'+d+'</span>';
+  }
+  grid.innerHTML=html;
+
+  // Dados de oferta
+  ['preco','parcelamento'].forEach(k=>{
+    if(CONFIG[k]) document.querySelectorAll('[data-fill="'+k+'"]').forEach(el=>el.textContent=CONFIG[k]);
+  });
+  if(CONFIG.checkout) document.querySelectorAll('.js-checkout').forEach(a=>a.href=CONFIG.checkout);
+  else document.querySelectorAll('.js-checkout').forEach(a=>a.href='#oferta');
+  if(encerrado && CONFIG.checkoutPosPrazo) document.querySelectorAll('.js-checkout').forEach(a=>a.href=CONFIG.checkoutPosPrazo);
+  if(CONFIG.atendimento) document.querySelectorAll('.js-support').forEach(a=>{a.href=CONFIG.atendimento;a.target='_blank';a.rel='noopener';});
+
+  document.getElementById('yr').textContent=hoje.getFullYear();
+
+  // Ampliar print de depoimento
+  const lb=document.getElementById('lb'), lbImg=document.getElementById('lb-img');
+  document.querySelectorAll('.testi-shot').forEach(b=>b.addEventListener('click',()=>{
+    const im=b.querySelector('img'); lbImg.src=im.src; lbImg.alt=im.alt;
+    if(lb.showModal) lb.showModal(); else window.open(im.src,'_blank');
+  }));
+  document.getElementById('lb-close').addEventListener('click',()=>lb.close());
+  lb.addEventListener('click',e=>{ if(e.target===lb||e.target.classList.contains('lb-in')) lb.close(); });
+
+  // Vídeos leves: só baixam perto da tela, tocam quando visíveis e pausam fora dela
+  document.querySelectorAll('.js-lazyvideo').forEach(v=>{
+    const io=new IntersectionObserver(es=>{
+      const e=es[0];
+      if(e.isIntersecting){
+        if(!v.src){ v.src=v.dataset.src; }
+        if(!matchMedia('(prefers-reduced-motion: reduce)').matches) v.play().catch(()=>{});
+      } else if(!v.paused){ v.pause(); }
+    },{rootMargin:'200px 0px',threshold:.25});
+    io.observe(v);
+  });
+
+  // Carrossel: bolinhas + avanço automático (só no celular, só quando visível)
+  const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('[data-carousel]').forEach(track=>{
+    const items=[...track.children];
+    const dots=document.createElement('div'); dots.className='dots';
+    items.forEach((_,i)=>{
+      const b=document.createElement('button'); b.type='button'; b.setAttribute('aria-label','Ver item '+(i+1)+' de '+items.length);
+      b.addEventListener('click',()=>{ irPara(i); pausar(); }); dots.appendChild(b);
+    });
+    track.after(dots);
+    const ehCarrossel=()=>getComputedStyle(track).display==='flex' && track.scrollWidth>track.clientWidth+4;
+    const atual=()=>{ const c=track.scrollLeft+track.clientWidth/2; let m=0,d=1e9;
+      items.forEach((it,i)=>{ const x=Math.abs(it.offsetLeft+it.offsetWidth/2-c); if(x<d){d=x;m=i;} }); return m; };
+    const pintar=()=>{ const a=atual(); [...dots.children].forEach((b,i)=>b.classList.toggle('on',i===a)); };
+    function irPara(i){ const it=items[i]; track.scrollTo({left:it.offsetLeft-(track.clientWidth-it.offsetWidth)/2,behavior:reduz?'auto':'smooth'}); }
+    let pausado=false, retomar, visivel=false;
+    function pausar(){ pausado=true; clearTimeout(retomar); retomar=setTimeout(()=>pausado=false,8000); }
+    ['pointerdown','touchstart','wheel'].forEach(ev=>track.addEventListener(ev,pausar,{passive:true}));
+    track.addEventListener('scroll',()=>requestAnimationFrame(pintar),{passive:true});
+    new IntersectionObserver(es=>{ visivel=es[0].isIntersecting; },{threshold:.5}).observe(track);
+    if(!reduz) setInterval(()=>{
+      if(pausado||!visivel||lb.open||document.hidden||!ehCarrossel()) return;
+      irPara((atual()+1)%items.length);
+    },4500);
+    pintar();
+  });
+})();
+</script>
+</body>
+</html>
